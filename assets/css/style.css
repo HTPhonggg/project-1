@@ -791,3 +791,24 @@ img {
 }
 
 /* End Button outline */
+
+/* Section 5 */
+.section-5 {
+  padding-bottom: 60px;
+}
+
+.section-5 .inner-image {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.section-5 .inner-image img {
+  width: 100%;
+}
+
+@media (max-width:575.98px) {
+  .section-5 {
+    padding-bottom: 45px;
+  }
+}
+/* End Section 5 */
