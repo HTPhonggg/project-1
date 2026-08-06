@@ -669,7 +669,7 @@ img {
 
 /* Section-3 */
 .section-3 {
-  padding-bototm: 60px;
+  padding-bottom: 60px;
 }
 
 .section-3 .inner-wrap {
@@ -712,3 +712,82 @@ img {
 }
 
 /* End Section-3 */
+
+/* Section 4 */
+.section-4 {
+  padding-bottom: 60px;
+}
+
+.section-4 .inner-wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.section-4 .inner-button {
+  margin-top: 30px;
+  text-align: center;
+}
+
+@media (max-width: 1199.98px) {
+  .section-4 .inner-wrap {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section-4 .inner-wrap {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 575.98px) {
+  .section-4 {
+    padding-bottom: 45px;
+  }
+
+  .section-4 .inner-wrap {
+    gap: 10px;
+  }
+
+  .section-4 .product-item .inner-content {
+    padding: 10px;
+  }
+
+
+  .section-4 .inner-button {
+    margin-top: 25px;
+  }
+
+}
+
+
+/* End Section 4 */
+
+
+/* Button outline */
+.button-outline {
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 13px 25px;
+  border-radius: 7px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-outline:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+@media (max-width: 575.98px) {
+  .button-outline {
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+}
+
+/* End Button outline */
