@@ -1246,3 +1246,31 @@ img {
 }
 
 /*End Footer */
+
+
+/* Box contact */
+.box-contact {
+  background-color: var(--color-primary);
+  border-radius: 10px;
+  padding: 12px 10px;
+  position: fixed;
+  box-shadow: 0px 2px 4px 0px #00000026;
+  right: 20px;
+  bottom: 50px;
+}
+
+.box-contact ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.box-contact ul li a {
+  font-size: 19px;
+  color: #FFFFFF;
+}
+/* End Box contact */
